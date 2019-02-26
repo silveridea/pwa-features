@@ -8,7 +8,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/pwa-features/index.html",
-        "/pwa-features/main.1dc590676b3548ffc9e3.js",
+        "/pwa-features/main.5314bf525fc4e9752896.js",
         "/pwa-features/polyfills.46532d96d3286697c138.js",
         "/pwa-features/runtime.a5dd35324ddfd942bef1.js",
         "/pwa-features/styles.292a7713fe1cfdaad63e.css"
@@ -48,8 +48,8 @@
     "/pwa-features/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
     "/pwa-features/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
     "/pwa-features/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "/pwa-features/index.html": "03c2866343ec1274ccc495039853810c5bbc53eb",
-    "/pwa-features/main.1dc590676b3548ffc9e3.js": "ec9110f84be596009cd190d517d592f3cc1f431e",
+    "/pwa-features/index.html": "45d1b36add8b852da20fb551e8dbb913d29d5a01",
+    "/pwa-features/main.5314bf525fc4e9752896.js": "96314d24370fca8de99a1abd95fae6d65831da4d",
     "/pwa-features/polyfills.46532d96d3286697c138.js": "6946e10a03311677a01490b8e91741668e64e17e",
     "/pwa-features/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/pwa-features/styles.292a7713fe1cfdaad63e.css": "b66119cba52f6a48f7215255acd1f4aeffc9ddfc"
