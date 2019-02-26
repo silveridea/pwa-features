@@ -26,9 +26,10 @@
       Z: {{displayZ}}
     </div>
   </div>
+  <div>{{lastShake.lastTime}}</div>
   <div *ngIf="shaked$ | async; let shaked;">
       <h2 style="color:red;">
-          I've been shaked !!!
+          I've been shaken !!!
       </h2>
   </div>
 </ng-container>
