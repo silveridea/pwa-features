@@ -5,7 +5,7 @@ This is a demo of different features available in Progressive Web Apps (PWA) wit
 
 [Demo is here](https://silveridea.github.io/pwa-features/)
 
-** Or scan the QR code**
+**Or scan the QR code**
 
 ![QR code](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fsilveridea.github.io%2Fpwa-features%2F&chs=180x180&choe=UTF-8&chld=L|2 "PWA Demo")
 
