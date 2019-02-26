@@ -24,7 +24,7 @@ export class PushWithHtml5Component implements OnInit {
     const title = 'Hello';
     const options = new PushNotificationOptions();
     options.body = 'Native Push Notification with HTML5';
-    options.icon = this.location.normalize('/assets/icons/silveridea-192x192.png'),
+    options.icon = this.location.normalize('assets/icons/silveridea-192x192.png'),
     options.renotify = true,
     options.tag = 'sameforall',
     options.silent = false,

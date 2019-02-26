@@ -12,22 +12,22 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/assets/icons/silveridea-48x48.png",
+      "src": "assets/icons/silveridea-48x48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "/assets/icons/silveridea-96x96.png",
+      "src": "assets/icons/silveridea-96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/assets/icons/silveridea-192x192.png",
+      "src": "assets/icons/silveridea-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/icons/silveridea-512x512.png",
+      "src": "assets/icons/silveridea-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

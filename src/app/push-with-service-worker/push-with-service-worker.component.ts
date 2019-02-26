@@ -26,15 +26,15 @@ export class PushWithServiceWorkerComponent implements OnInit {
     navigator.serviceWorker.ready.then((swRegistration) => {
       const opt = {
         body: 'Native Push Notification with Service Worker',
-        icon: this.location.normalize('/assets/icons/silveridea-192x192.png'),
+        icon: this.location.normalize('assets/icons/silveridea-192x192.png'),
         renotify: true,
         tag: 'sameforall',
         silent: false,
         dir: 'ltr' as NotificationDirection,
         vibrate: [20, 2, 20],
         // actions: [
-        //   { 'action': 'yes', 'title': 'Yes', 'icon': `${this.location.normalize('/assets/yes.png')}` },
-        //   { 'action': 'no', 'title': 'No', 'icon': `${this.location.normalize('/assets/no.png')}` }
+        //   { 'action': 'yes', 'title': 'Yes', 'icon': `${this.location.normalize('assets/yes.png')}` },
+        //   { 'action': 'no', 'title': 'No', 'icon': `${this.location.normalize('assets/no.png')}` }
         // ],
         data: {
           url: this.location.path()
