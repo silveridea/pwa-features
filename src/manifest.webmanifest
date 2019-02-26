@@ -1,10 +1,10 @@
 {
-  "name": "PWA Features Demo",
-  "short_name": "pwa-features",
+  "name": "PWA Demo",
+  "short_name": "PWA Demo",
   "dir": "ltr",
   "lang": "en",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "./index.html",
   "background_color": "#2196F3",
   "theme_color": "#2196F3",
   "display": "standalone",

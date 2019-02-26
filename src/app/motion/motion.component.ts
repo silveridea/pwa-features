@@ -14,7 +14,7 @@ export class MotionComponent implements OnInit {
   public displayY = 0;
   public displayZ = 0;
   public shaked$: Observable<boolean> = of(false);
-  private lastShake = {
+  public lastShake = {
     lastTime: new Date(),
     lastX: null,
     lastY: null,
@@ -24,21 +24,22 @@ export class MotionComponent implements OnInit {
     threshold: 15, // default velocity threshold for shake to register
     timeout: 1000 // default interval between events
   };
-  private obs: any;
-  private Shaked = new Observable((obs: any) => {
+  private observer: any;
+  private Shaked = new Observable((observer: any) => {
     if (!this.checkCompatibility()) {
-      const err = 'Notifications are not available in this browser.';
+      const err = 'Motion is not available in this browser.';
       console.error(err);
-      obs.error(err);
-      obs.complete();
+      observer.error(err);
+      observer.complete();
     }
-    this.obs = obs;
+    this.observer = observer;
   });
   constructor() {
   }
   ngOnInit() {
+    this.shaked$ = of(false).pipe(delay(this.options.timeout * 10));//.pipe(merge(of(false)));
     this.Shaked.subscribe(event => {
-      this.shaked$ = of(true).pipe(merge(of(false))).pipe(delay(this.options.timeout * 3));
+      this.shaked$ = of(true).pipe(merge(of(false).pipe(delay(this.options.timeout * 3))));
     });
     this.compatible = this.checkCompatibility();
   }
@@ -90,7 +91,7 @@ export class MotionComponent implements OnInit {
         timeDifference = currentTime.getTime() - this.lastShake.lastTime.getTime();
 
         if (timeDifference > this.options.timeout) {
-          this.obs.next(e);
+          this.observer.next(e);
           // window.dispatchEvent(this.event);
           this.lastShake.lastTime = new Date();
         }
