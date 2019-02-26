@@ -1,0 +1,29 @@
+<h1>Orientation sensor</h1>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4">
+    <p>
+      We are tracking device orientation event which listens to device movement in 3D.
+      <br/>
+      Try rotating your device to see how it affects the numbers.
+      <br/>
+      Works on most handheld devices.
+    </p>
+  </div>
+</div>
+<div class="row" *ngIf="!compatible">
+  <div class="col-12">
+    <h4>Orientation is not supported</h4>
+  </div>
+</div>
+<ng-container *ngIf="compatible">
+  <div class="row">
+      <div class="col-12 col-md-4 offset-md-4 text-center">
+      <h4>Orientation</h4>
+      Beta: {{displayBeta}}
+      <br/>
+      Gamma: {{displayGamma}}
+      <br/>
+      Alpha: {{displayAlpha}}
+    </div>
+  </div>
+</ng-container>

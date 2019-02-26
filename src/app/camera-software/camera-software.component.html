@@ -1,0 +1,39 @@
+<h1>Camera from software/Image from device</h1>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4">
+    <p>
+      We are using <code>&lt;input type="file" accept="image/*" capture/&gt;</code> here.
+      It will open the camera dialog on your device.
+      <br/>
+      Depending on the device it is possible to switch between main camera and front camera:
+      <br/>
+      Use <code>capture="user"</code> for front camera and <code>capture="environment"</code> for main camera.
+      <br/>
+      There is a comment in the code which explains how to post the image to server.
+    </p>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4 upload">
+    <label class="hand-cursor btn btn-primary btn-block">
+      <input type="file" #anyImageFileInput (change)="setFile($event)" accept="image/*" capture/>
+      <span><i class="fa fa-camera"></i> Any picture</span>
+    </label>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4 upload">
+    <label class="hand-cursor btn btn-primary btn-block">
+      <input type="file" #selfieImageFileInput (change)="setFile($event)" accept="image/*" capture="user"/>
+      <span><i class="fa fa-camera"></i> Picture from selfie camera</span>
+    </label>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4 upload">
+    <label class="hand-cursor btn btn-primary btn-block">
+      <input type="file" #mainImageFileInput (change)="setFile($event)" accept="image/*" capture="environment"/>
+      <span><i class="fa fa-camera"></i> Picture from main camera</span>
+    </label>
+  </div>
+</div>

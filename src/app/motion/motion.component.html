@@ -1,0 +1,34 @@
+<h1>Motion sensor</h1>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4">
+    <p>
+      We are tracking device motion event which listens to 3D acceleration during motion.
+      <br/>
+      <b>Try shaking your device</b> to see something special.
+      <br/>
+      Works on most handheld devices.
+    </p>
+  </div>
+</div>
+<div class="row" *ngIf="!compatible">
+  <div class="col-12">
+    <h4>Motion is not supported</h4>
+  </div>
+</div>
+<ng-container *ngIf="compatible">
+  <div class="row">
+      <div class="col-12 col-md-4 offset-md-4 text-center">
+      <h4>Acceleration</h4>
+      X: {{displayX}}
+      <br/>
+      Y: {{displayY}}
+      <br/>
+      Z: {{displayZ}}
+    </div>
+  </div>
+  <div *ngIf="shaked$ | async; let shaked;">
+      <h2 style="color:red;">
+          I've been shaked !!!
+      </h2>
+  </div>
+</ng-container>

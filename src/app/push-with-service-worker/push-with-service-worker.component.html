@@ -1,0 +1,22 @@
+<h1>Push notifications with service worker</h1>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4">
+    <p>
+      We are using service worker notifications. If the app was added to home
+      screen (installed), then notification can be displayed even
+      when the app is inactive. To listen to events some changes need to be done
+       to Angular 5 ngsw-worker.js. Check our upgraded file here
+        ./good-ngsw-workerngsw-worker.js It gets copied automatically instead
+        of ngsw-worker.js during build.
+      <br/>
+      Notification can display an icon, title and content and some more details (see example in code).
+      <br/>
+      It works only on Android for now, not on IOS.
+    </p>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4 text-center">
+    <button class="btn btn-primary btn-lg" (click)="onNotif()"><i class="fa fa-commenting-o"></i> Simulate incoming notification</button>
+  </div>
+</div>

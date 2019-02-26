@@ -1,27 +1,48 @@
-# PwaFeatures
+# pwa-features
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+This is a demo of different features available in Progressive Web Apps (PWA) with Service Workers in Angular.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[Demo is here](https://silveridea.github.io/pwa-features/)
 
-## Code scaffolding
+[Hire us](http://www.silveridea.net)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Google Official Documentation for PWA is here](https://developers.google.com/web/fundamentals/codelabs/)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Setup
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```ts
+git clone https://github.com/silveridea/pwa-features.git
+cd pwa-features
+npm install
+```
+Since "service worker" works only in production mode, we need to build it for prod.
+```ts
+ng build --prod
+```
 
-## Running end-to-end tests
+We need to serve the built version from the "dist" folder.
+We will use lite-server to run it.
+```ts
+npm run lite
+```
+Now browse to http://localhost:3000
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+This build copies a better ngsw-worker.js file to the root folder.
+For a Linux machine, edit package.json file and replace
+```ts
+"ngsw-copy1": "copy good-ngsw-worker/ngsw-worker.js dist /Y",
+"ngsw-copy2": "copy bs-config.js dist /Y",
+```
+with
+```ts
+"ngsw-copy1":   "cp good-ngsw-worker/ngsw-worker.js dist/",
+"ngsw-copy2":   "cp bs-config.js dist/",
+```
 
-## Further help
+Your feedback is important
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+[by silveridea](http://www.silveridea.net/?utm_source=github&utm_campaign=link2)

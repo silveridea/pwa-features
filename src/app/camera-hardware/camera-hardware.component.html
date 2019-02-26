@@ -1,0 +1,34 @@
+<h1>Camera from hardware</h1>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4">
+    <p>
+      We are using <code>navigator.mediaDevices.getUserMedia</code> here.
+      It takes the camera stream and shows it in the top window.
+      <br/>
+      When the shot is taken it is dispayed on canvas and the media stream is stopped.
+      <br/>
+      The image can be downloaded.
+    </p>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-12 col-md-4 offset-md-4 text-center">
+      <video *ngIf="videoCapable" #video1 width="300" autoplay class="has-picture"></video>
+      <div *ngIf="!videoCapable">Access to camera denied</div>
+  </div>
+</div>
+<div class="row mb-2" *ngIf="videoCapable">
+  <div class="col-12 col-md-4 offset-md-4 text-center">
+    <button class="btn btn-primary btn-lg" (click)="onSnap()"><i class="fa fa-camera"></i> Snap</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-md-4 offset-md-4 py-2 px-2 mb-1">
+      <canvas #canvas1 width="100%" [ngClass]="{ 'has-picture' : pictureTaken }">></canvas>
+  </div>
+</div>
+<div class="row mb-5" *ngIf="pictureTaken">
+  <div class="col-12 col-md-4 offset-md-4 text-center">
+    <a class="btn btn-primary btn-lg" href="{{downloadLink}}" download="image.png"><i class="fa fa-download"></i> Download</a>
+  </div>
+</div>

@@ -275,7 +275,23 @@ MIT
 @angular/router
 MIT
 
+ngx-push-notifications
+MIT
+
+ngx-bootstrap/utils
+
+ngx-bootstrap/component-loader
+
+ngx-bootstrap/positioning
+
+ngx-bootstrap/dropdown
+
+ngx-bootstrap/collapse
+
 @angular/service-worker
+MIT
+
+@angular/http
 MIT
 
 zone.js

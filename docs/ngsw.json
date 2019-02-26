@@ -7,12 +7,11 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/pwa-features/favicon.ico",
         "/pwa-features/index.html",
-        "/pwa-features/main.c9c6f803554a0500f795.js",
+        "/pwa-features/main.28aaf8cead25055bfc3f.js",
         "/pwa-features/polyfills.46532d96d3286697c138.js",
         "/pwa-features/runtime.a5dd35324ddfd942bef1.js",
-        "/pwa-features/styles.3ff695c00d717f2d2a11.css"
+        "/pwa-features/styles.292a7713fe1cfdaad63e.css"
       ],
       "patterns": []
     },
@@ -21,34 +20,39 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/pwa-features/assets/icons/icon-128x128.png",
-        "/pwa-features/assets/icons/icon-144x144.png",
-        "/pwa-features/assets/icons/icon-152x152.png",
-        "/pwa-features/assets/icons/icon-192x192.png",
-        "/pwa-features/assets/icons/icon-384x384.png",
-        "/pwa-features/assets/icons/icon-512x512.png",
-        "/pwa-features/assets/icons/icon-72x72.png",
-        "/pwa-features/assets/icons/icon-96x96.png"
+        "/pwa-features/assets/icons/silveridea-192x192.png",
+        "/pwa-features/assets/icons/silveridea-48x48.png",
+        "/pwa-features/assets/icons/silveridea-512x512.png",
+        "/pwa-features/assets/icons/silveridea-96x96.png",
+        "/pwa-features/assets/no.png",
+        "/pwa-features/assets/yes.png",
+        "/pwa-features/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "/pwa-features/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "/pwa-features/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "/pwa-features/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "/pwa-features/fontawesome-webfont.fee66e712a8a08eef580.woff"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/pwa-features/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/pwa-features/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/pwa-features/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/pwa-features/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/pwa-features/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/pwa-features/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/pwa-features/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/pwa-features/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/pwa-features/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/pwa-features/index.html": "0f64cf1514fcf42dff977b6550ed225a32094796",
-    "/pwa-features/main.c9c6f803554a0500f795.js": "ffdb145a0c788b2059060309058a2584fcc30b4e",
+    "/pwa-features/assets/icons/silveridea-192x192.png": "ead99d9101b85a4d082a3959f4471dcf639ad18e",
+    "/pwa-features/assets/icons/silveridea-48x48.png": "98d37a54e12b34d9eba3f14b24e19dd3414a4f24",
+    "/pwa-features/assets/icons/silveridea-512x512.png": "672e232b11a3eb997c97b44b09bfe7acc87a7bff",
+    "/pwa-features/assets/icons/silveridea-96x96.png": "57d75dad18c90f78db0ae4468fc27a2b726e77ec",
+    "/pwa-features/assets/no.png": "8283ac61f008598b5822a4900dc34f4900e144ae",
+    "/pwa-features/assets/yes.png": "05cd0670b9a401793ad2f7938f1eb50a49f75fc0",
+    "/pwa-features/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/pwa-features/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/pwa-features/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/pwa-features/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/pwa-features/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/pwa-features/index.html": "d3cdf79b70d26bf288c9efdeb0118eb5525413e3",
+    "/pwa-features/main.28aaf8cead25055bfc3f.js": "cc2ee0c368c81f1416ee9a162bf86e8024848cfa",
     "/pwa-features/polyfills.46532d96d3286697c138.js": "6946e10a03311677a01490b8e91741668e64e17e",
     "/pwa-features/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/pwa-features/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/pwa-features/styles.292a7713fe1cfdaad63e.css": "b66119cba52f6a48f7215255acd1f4aeffc9ddfc"
   },
   "navigationUrls": [
     {

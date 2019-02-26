@@ -1,0 +1,26 @@
+{
+  "index": "/index.html",
+  "assetGroups": [{
+    "name": "pwa-features",
+    "installMode": "prefetch",
+    "resources": {
+      "files": [
+        "/index.html"
+      ],
+      "versionedFiles": [
+        "/*.bundle.css",
+        "/*.bundle.js",
+        "/*.chunk.js"
+      ]
+    }
+  }, {
+    "name": "assets",
+    "installMode": "prefetch",
+    "updateMode": "prefetch",
+    "resources": {
+      "files": [
+        "/assets/**"
+      ]
+    }
+  }]
+}
