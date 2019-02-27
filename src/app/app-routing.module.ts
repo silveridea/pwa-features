@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'gyro', component: OrientationComponent, canActivate: [IsSecureGuard]},
 ];
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })], //we use hase because it works better with github pages
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
