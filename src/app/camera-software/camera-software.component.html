@@ -25,7 +25,7 @@
   <div class="col-12 col-md-4 offset-md-4 upload">
     <label class="hand-cursor btn btn-primary btn-block">
       <input type="file" #selfieImageFileInput (change)="setFile($event)" accept="image/*" capture="user"/>
-      <span><i class="fa fa-camera"></i> Picture from selfie camera</span>
+      <span><i class="fa fa-camera"></i> Picture from selfie camera (only for iOS)</span>
     </label>
   </div>
 </div>
@@ -33,7 +33,7 @@
   <div class="col-12 col-md-4 offset-md-4 upload">
     <label class="hand-cursor btn btn-primary btn-block">
       <input type="file" #mainImageFileInput (change)="setFile($event)" accept="image/*" capture="environment"/>
-      <span><i class="fa fa-camera"></i> Picture from main camera</span>
+      <span><i class="fa fa-camera"></i> Picture from main camera (only for iOS)</span>
     </label>
   </div>
 </div>

@@ -2,12 +2,20 @@
 
 This is a demo of different features available in Progressive Web Apps (PWA) with Service Workers in Angular.
 
-
-[Demo is here](https://silveridea.github.io/pwa-features/)
-
-**Or scan the QR code**
+## Demo
+Demo is [here](https://silveridea.github.io/pwa-features/) or scan the QR code
 
 ![QR code](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fsilveridea.github.io%2Fpwa-features%2F&chs=180x180&choe=UTF-8&chld=L|2 "PWA Demo")
+
+
+## Current PWA capabilites in this demo
+
+- [Camera based on HTML5](https://silveridea.github.io/pwa-features/#/camerahard)
+- [Camera based on Hardware](https://silveridea.github.io/pwa-features/#/camerasoft)
+- [Push notifications with HTML5](https://silveridea.github.io/pwa-features/#/pushhtml5)
+- [Push notifications with Service Worker](https://silveridea.github.io/pwa-features/#/pushworker)
+- [Motion](https://silveridea.github.io/pwa-features/#/motion)
+- [Orientation](https://silveridea.github.io/pwa-features/#/gyro)
 
 [Google Official Documentation for PWA is here](https://developers.google.com/web/fundamentals/codelabs/)
 
@@ -32,9 +40,8 @@ npm run lite
 ```
 Now browse to http://localhost:3000
 
+
 Your feedback is important
 
 
-[Silveridea](http://www.silveridea.net/?utm_source=github&utm_campaign=link2) is a JavaScript agency in Sydney, AU.
-
-[Hire us](http://www.silveridea.net)
+[Silveridea](http://www.silveridea.net/?utm_source=github&utm_campaign=link2) is a JavaScript agency in Sydney, Australia       [Hire us](http://www.silveridea.net)
