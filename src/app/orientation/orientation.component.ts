@@ -32,7 +32,9 @@ export class OrientationComponent implements OnInit {
   }
   private getStylesString(alpha: number, beta:number, gamma: number): any {
     // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Using_device_orientation_with_3D_transforms
-
+    //alpha moves between 0 and 360 deg, rotates around z axis
+    //beta moves between -180 and 180 deg, rotates around x axis
+    //gamma moves between -90 and 90 deg, rotates around y axis
     // let x = 0;
     // if (record.beta >= -90  && record.beta <= 90) {
     //   x = Math.abs(record.beta - 90);
@@ -50,7 +52,8 @@ export class OrientationComponent implements OnInit {
     const z = (alpha - 180) * (-1);
     this.cd.markForCheck();
     return {
-      'transform': `rotateX(${x}deg) rotateY(${y}deg) rotateZ(${z}deg)`
+      //'transform': `rotateX(${x}deg) rotateY(${y}deg) rotateZ(${z}deg)`
+      'transform': `rotateX(${x}deg) rotateY(${y}deg)`
     };
   }
 }
