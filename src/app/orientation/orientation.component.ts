@@ -12,7 +12,7 @@ export class OrientationComponent implements OnInit {
   public displayAlpha = 0;
   public displayBeta = 0;
   public displayGamma = 0;
-  public transformStyles$: BehaviorSubject<any>;
+  public transformStyles$ = new BehaviorSubject<any>(null);
   constructor(private cd: ChangeDetectorRef) { }
   ngOnInit() {
     this.compatible = this.checkCompatibility();

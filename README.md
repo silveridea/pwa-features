@@ -17,8 +17,11 @@ Demo is [here](https://silveridea.github.io/pwa-features/) or scan the QR code
 - [Motion](https://silveridea.github.io/pwa-features/#/motion)
 - [Orientation](https://silveridea.github.io/pwa-features/#/gyro)
 
-[Google Official Documentation for PWA is here](https://developers.google.com/web/fundamentals/codelabs/)
 
+## Documentation
+
+Read our [blog](https://www.silveridea.net/category/pwa/) for documentation
+Google Official Documentation for PWA is [here](https://developers.google.com/web/fundamentals/codelabs/)
 
 
 ## Setup
