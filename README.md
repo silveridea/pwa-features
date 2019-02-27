@@ -3,24 +3,25 @@
 This is a demo of different features available in Progressive Web Apps (PWA) with Service Workers in Angular.
 
 ## Demo
-Demo is [here](https://silveridea.github.io/pwa-features/) or scan the QR code
+Demo is [here](https://pwafeatures.herokuapp.com/) or scan the QR code
 
-![QR code](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fsilveridea.github.io%2Fpwa-features%2F&chs=180x180&choe=UTF-8&chld=L|2 "PWA Demo")
+![QR code](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fpwafeatures.herokuapp.com%2F&chs=180x180&choe=UTF-8&chld=L|2 "PWA Demo")
 
 
 ## Current PWA capabilites in this demo
 
-- [Camera based on HTML5](https://silveridea.github.io/pwa-features/#/camerahard)
-- [Camera based on Hardware](https://silveridea.github.io/pwa-features/#/camerasoft)
-- [Push notifications with HTML5](https://silveridea.github.io/pwa-features/#/pushhtml5)
-- [Push notifications with Service Worker](https://silveridea.github.io/pwa-features/#/pushworker)
-- [Motion](https://silveridea.github.io/pwa-features/#/motion)
-- [Orientation](https://silveridea.github.io/pwa-features/#/gyro)
+- [Camera based on HTML5](https://pwafeatures.herokuapp.com/camerahard)
+- [Camera based on Hardware](https://pwafeatures.herokuapp.com/camerasoft)
+- [Push notifications with HTML5](https://pwafeatures.herokuapp.com/pushhtml5)
+- [Push notifications with Service Worker](https://pwafeatures.herokuapp.com/pushworker)
+- [Motion](https://pwafeatures.herokuapp.com/motion)
+- [Orientation](https://pwafeatures.herokuapp.com/gyro)
 
 
 ## Documentation
 
-Read our [blog](https://www.silveridea.net/category/pwa/) for documentation
+Read our [blog](https://www.silveridea.net/category/pwa/) for documentation.
+
 Google Official Documentation for PWA is [here](https://developers.google.com/web/fundamentals/codelabs/)
 
 
