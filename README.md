@@ -20,7 +20,8 @@ Demo is [here](https://pwafeatures.herokuapp.com/) or scan the QR code
 
 ## Documentation
 
-Read our [blog](https://www.silveridea.net/category/pwa/) for documentation
+Read our [blog](https://www.silveridea.net/category/pwa/) for documentation.
+
 Google Official Documentation for PWA is [here](https://developers.google.com/web/fundamentals/codelabs/)
 
 
